@@ -1,14 +1,15 @@
 account_credentials_file = 'acc2.json'  # Нужен для работы с API google таблиц
 
-font_file = 'fonts/IBMPlexSans-Light.ttf'  # Файл шрифта (обязан быть в ttf)
-font_name = 'IBMPlexSans-Light'  # Название шрифта
+font_for_name_file = 'fonts/IBMPlexSans-Bold.ttf'
+font_for_name_name = 'IBMPlexSans-Bold'
 
-y_coordinate = 502  # y координата начала текста. Подбирается методом тыка :)
+font_reg_file = 'fonts/IBMPlexSans-Light.ttf'  # Файл шрифта (обязан быть в ttf)
+font_reg_name = 'IBMPlexSans-Light'  # Название шрифта
 
-# Тут задается три шаблона. С текущим шаблоном прокатывает один и тот же,
-# но по идее они могут быть разные для разного количества строк текста
-normal_template_pdf = 'letter_templates/letter_blank.pdf'
-longer_template_pdf = 'letter_templates/letter_blank.pdf'
-longest_template_pdf = 'letter_templates/letter_blank.pdf'
+y_coordinate = 585  # y координата начала текста. Подбирается методом тыка :)
 
-output_directory = 'done_letters'  # Директория, куда будут писаться готовые письма. Убедитесь что она существует
+pob_blank = 'letter_templates/diplom_pob_blank.pdf'
+priz_blank = 'letter_templates/diplom_priz_blank.pdf'
+pob_example = 'letter_templates/diplom_pob_example.pdf'
+
+output_directory = 'done_diploms'  # Директория, куда будут писаться готовые письма. Убедитесь что она существует
